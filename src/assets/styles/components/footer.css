@@ -1,0 +1,27 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 6rem;
+  width: 100vw;
+  background-color: var(--dark-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.footer__text {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.footer__links {
+
+}
+
+.footer__link {
+  fill: white;
+  margin: 0 10px;
+}

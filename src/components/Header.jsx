@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import 'assets/styles/header.css'
+import 'assets/styles/components/header.css'
 const Home = () => {
   return (
     <>
