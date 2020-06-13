@@ -3,6 +3,8 @@
 :root {
   --primary-color: #2196f3;
   --dark-color: #35363a;
+  --text-primary-color: #263238;
+  --text-secondary-color: #455a64;
 }
 
 body {
@@ -20,4 +22,10 @@ body {
 a .material-icons {
   margin-top: -9px;
   margin-right: 4px;
+}
+
+.main-container {
+  max-width: 1000px;
+  margin: 40px auto;
+
 }
