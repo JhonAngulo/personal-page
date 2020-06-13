@@ -1,16 +1,8 @@
 import React from 'react'
-import Header from 'components/Header'
-import Footer from 'components/Footer'
 
 const Home = () => {
   return (
-    <>
-    <Header />
-    
-    <h1>Home</h1>
-
-    <Footer />
-    </>
+    <h1>Hola soy falcao</h1>
   )
 }
 
