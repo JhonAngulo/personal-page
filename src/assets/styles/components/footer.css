@@ -1,6 +1,4 @@
 .footer {
-  /* position: absolute;*/
-  bottom: 0; 
   height: 6rem;
   width: 100%;
   background-color: var(--dark-color);

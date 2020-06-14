@@ -10,9 +10,17 @@ import logoJavascript from 'assets/images/logo_javascript.svg'
 import logoReact from 'assets/images/logo_react.svg'
 import logoNode from 'assets/images/logo_node.svg'
 
-
 import 'assets/styles/pages/curriculum.css'
 const Home = () => {
+  const activeTab = (event) => {
+    let tabItems = document.getElementsByClassName('curriculum__tab-item')
+    for (let i = 0; i < tabItems.length; i++) {
+      const element = tabItems[i]
+      element.classList.remove('active')
+    }
+    event.target.classList.add('active')
+  }
+
   return (
     <div className='curriculum-container'>
       <div className='curriculum__info'>
@@ -46,7 +54,11 @@ const Home = () => {
             <p className='tecno__name'>Css</p>
           </div>
           <div className='tecno__item'>
-            <img className='tecno__logo' src={logoJavascript} alt='logo javascript' />
+            <img
+              className='tecno__logo'
+              src={logoJavascript}
+              alt='logo javascript'
+            />
             <p className='tecno__name'>Javascript</p>
           </div>
           <div className='tecno__item'>
@@ -61,7 +73,17 @@ const Home = () => {
       </div>
       <div>
         <h1 className='curriculum__title'>jhon manuel angulo moncada</h1>
-        <h3>Experiencia laboral</h3>
+        <div className='curriculum__tab'>
+          <span onClick={activeTab} className='curriculum__tab-item active'>
+            Experiencia laboral
+          </span>
+          <span onClick={activeTab} className='curriculum__tab-item'>
+            Formacion
+          </span>
+          <span onClick={activeTab} className='curriculum__tab-item'>
+            Formacion Virtual
+          </span>
+        </div>
         <div className='experience-container'>
           <div className='experience__card'>
             <p>
