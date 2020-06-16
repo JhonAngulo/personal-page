@@ -1,8 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 import 'assets/styles/components/header.css'
 const Home = () => {
+  const [state, setState] = useState(false)
+
+  const handleMenu = () => {
+    console.log('menu open')
+    setState(!state)
+  }
+
   return (
     <>
       <nav className='navbar'>
@@ -31,6 +38,14 @@ const Home = () => {
             </Link>
           </li>
         </ul>
+
+        <div className='navbar__menu' onClick={handleMenu}>
+          <i className='material-icons'>
+            {
+              state ? 'menu_open' : 'menu'
+            }
+          </i>
+        </div>
       </nav>
     </>
   )
