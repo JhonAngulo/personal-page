@@ -66,6 +66,7 @@
   box-sizing: border-box;
   border-radius: 8px;
   width: 100%;
+  max-width: 300px;
   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14),
   0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
@@ -89,4 +90,25 @@
 
 .experience__card p {
   margin: 6px 0;
+}
+
+@media (max-width: 900px) {
+  .curriculum-container {
+    grid-template-columns: 1fr;
+    width: 100%;
+    text-align: center;
+  }
+
+  .curriculum__image {
+    max-width: 200px;
+  }
+
+  .curriculum__tab-option{
+    text-align: initial;
+  }
+
+  .tecno {
+    margin: auto;
+    width: fit-content;
+  }
 }
