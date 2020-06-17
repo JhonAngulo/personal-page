@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className='footer'>
       <p className='footer__text'>
-        {`Jhon Manuel Angulo Moncada - ${fecha.getFullYear()} Copyright © Todos los derechos reservados.`}
+        {`${fecha.getFullYear()} Copyright © - Todos los derechos reservados.`}
       </p>
       <div className='footer__links'>
         <p>Contactame:</p>
