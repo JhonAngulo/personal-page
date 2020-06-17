@@ -8,6 +8,19 @@
   --text-secondary-color: #455a64;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: rgba(38, 50, 56, 0.4);
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #c5c5c5;
+}
+
 html {
   overflow-y:scroll;
 }
@@ -22,7 +35,7 @@ body {
 #root {
   height: 100vh;
   display: grid;
-  grid-template-rows: 50px 1fr;
+  grid-template-rows: 1fr;
 }
 
 .material-icons {
@@ -37,6 +50,7 @@ a .material-icons {
 
 .main-container {
   max-width: 1000px;
+  width: 90%;
   margin: 40px auto;
   padding: 10px;
   box-sizing: border-box;
