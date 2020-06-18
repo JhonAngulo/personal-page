@@ -108,7 +108,8 @@
   }
 
   .tecno {
-    margin: auto;
-    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
   }
 }

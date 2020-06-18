@@ -28,8 +28,8 @@ const Home = () => {
           <p>Soledad, Atlántico - Colombia</p>
         </div>
 
+        <h3>Tecnologias</h3>
         <div className='tecno'>
-          <h3>Tecnologias</h3>
           <div className='tecno__item'>
             <img className='tecno__logo' src={logoGit} alt='logo git' />
             <p className='tecno__name'>Git</p>
