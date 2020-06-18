@@ -1,0 +1,37 @@
+.proyects-container {
+max-width: 900px;
+padding-top: 50px;
+}
+
+.proyect-item {
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 20px 30px;
+  background-color: white;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+  text-align: center;
+}
+
+.proyect__title {
+  text-transform: uppercase;
+}
+
+.proyect__details {
+  text-align: left;
+}
+
+.proyect__image {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14),
+  0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.proyect__link {
+  text-decoration: none;
+  width: fit-content;
+  display: block;
+  margin: 10px 0;
+  color: var(--primary-color);
+}

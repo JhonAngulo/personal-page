@@ -13,13 +13,16 @@ const Home = () => {
         norte de Colombia, en el 2018 empecé a tener contacto con las
         tecnologías web y poco a poco fue creciendo esta pasión hacia estas
         tecnologías, en ese año realicé mi primera app móvil usando Apache
-        Cordova. Anterior mente ya venía desarrollando plugin para controladores
-        de la plataforma Vera Control y Horus Smart Control. Pero a partir de
+        Cordova.
+      </p>
+      <p>
+        Anterior mente ya venía desarrollando plugins para los controladores
+        de las plataformas Vera Control y Horus Smart Control. A partir del
         contacto con las tecnologías web empecé a buscar información en internet
         aprender leyendo documentos, leyendo código, viendo videos en YouTube y
         otras páginas, hasta que en 2019 hice mi primer curso en línea en la
         plataforma del Sena el cual fue de PHP, posterior mente emocionado y con
-        muchos deseos de emprender cada día más decidí asumir nuevos retos e
+        muchos deseos de aprender cada día más decidí asumir nuevos retos e
         ingrese a Platzi, plataforma de educación en línea a la cual le debo la
         mayor cantidad de mi conocimiento.
       </p>
