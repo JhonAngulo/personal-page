@@ -5,7 +5,7 @@ export const portafolio = [
     imagen: '/images/proyects/personal_page.png',
     detalles:
       'Proyecto realizado con React, utilizando Css puro, con el fin de tener mi propio sitio y darme a conocer, además de demostrar un poco mis conocimientos.',
-    url: 'url',
+    url: 'https://personal-page.jhonangulo.vercel.app/',
     repositorio: 'https://github.com/JhonAngulo/personal-page'
   },
   {
