@@ -14,7 +14,7 @@ const Home = () => {
         </p>
         <p>
           En esta pagina podras encontrar informacion para conocerme, las
-          tecnologias que manejo manejo, mi curriculum y los proyectos que
+          tecnologias que manejo, mi curriculum y los proyectos que
           realizado.
         </p>
         <p>Gracias por visitar mi página personal.</p>
