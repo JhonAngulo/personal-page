@@ -52,7 +52,7 @@ const Home = () => {
               src={logoJavascript}
               alt='logo javascript'
             />
-            <p className='tecno__name'>Javascript</p>
+            <p className='tecno__name'>JavaScript</p>
           </div>
           <div className='tecno__item'>
             <img className='tecno__logo' src={logoReact} alt='logo react' />
