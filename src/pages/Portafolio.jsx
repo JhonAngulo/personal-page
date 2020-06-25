@@ -10,10 +10,10 @@ const Home = () => {
 
       {
         portafolio.map((item) => (
-          <div className='proyect-item' key={item.id}>
+          <div className='card_2 proyect-item' key={item.id}>
           <h3 className='proyect__title'>{item.titulo}</h3>
           <img
-            className='proyect__image'
+            className='card_2 proyect__image'
             src={item.imagen}
             alt='proyecto pagina personal'
           />

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <>
+    <div className='card'>
       <h1>Hola</h1>
       <p>
         Mi nombre es Jhon Manuel Angulo Moncada, Frontend Developer y Técnico
@@ -26,7 +26,7 @@ const Home = () => {
         ingrese a Platzi, plataforma de educación en línea a la cual le debo la
         mayor cantidad de mi conocimiento.
       </p>
-    </>
+    </div>
   )
 }
 

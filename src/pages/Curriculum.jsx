@@ -18,7 +18,7 @@ const Home = () => {
     <div className='curriculum-container'>
       <div className='curriculum__info'>
         <img
-          className='curriculum__image'
+          className='card_2 curriculum__image'
           src={imagen}
           alt='foto jhon angulo'
         />

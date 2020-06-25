@@ -20,7 +20,7 @@ const TabCurriculum = () => {
   }
   return (
     <>
-      <div className='curriculum__tab'>
+      <div className='card_2 curriculum__tab'>
         <span
           onClick={activeTab}
           className='curriculum__tab-item active'
@@ -37,7 +37,7 @@ const TabCurriculum = () => {
       </div>
       <div className='curriculum__tab-option active'>
         {experiencia.map((item) => (
-          <div className='experience__card' key={item.id}>
+          <div className='card_2 experience__card' key={item.id}>
             <p>
               <strong>Empresa: </strong> {item.empresa}
             </p>
@@ -55,7 +55,7 @@ const TabCurriculum = () => {
       </div>
       <div className='curriculum__tab-option'>
         {formacion.map((item) => (
-          <div className='experience__card' key={item.id}>
+          <div className='card_2 experience__card' key={item.id}>
             <p>
               <strong>Título: </strong> {item.titulo}
             </p>
@@ -73,7 +73,7 @@ const TabCurriculum = () => {
       </div>
       <div className='curriculum__tab-option'>
         {formacionVirtual.map((item) => (
-          <div className='experience__card' key={item.id}>
+          <div className='card_2 experience__card' key={item.id}>
             <p>
               <strong>Carrera: </strong> {item.carrera}
             </p>

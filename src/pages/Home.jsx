@@ -4,7 +4,7 @@ import 'assets/styles/pages/home.css'
 
 const Home = () => {
   return (
-    <div className='home-container'>
+    <div className='home-container card'>
       <h1 className='home__title fadeInDown'>¡Bienvenido!</h1>
       <div className='fadeInUp'>
         <h2>Soy, Jhon Manuel Angulo Moncada</h2>

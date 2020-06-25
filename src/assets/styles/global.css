@@ -30,7 +30,10 @@ body {
   padding: 0; */
   font-family: "Roboto", sans-serif;
   background-color: #f5f5f5;
-  color: var(--text-primary-color)
+  color: var(--text-primary-color);
+  background-image: url('/images/honeycomb.svg');
+  background-size: contain;
+  background-position: center;
 }
 
 #root {
@@ -61,8 +64,28 @@ p {
   line-height: 22px;
 }
 
+.card {
+  background-color: white;
+  margin: 30px 0;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14),
+  0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.card_2 {
+  background-color: white;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+}
+
 @media (max-width: 1100px) {
   .main-container {
     padding: 0 6%;
   }
+
+  body {
+    background-size: cover;
+  }
+
 }
