@@ -6,3 +6,9 @@
 .home__title {
   font-size: 48px;
 }
+
+@media screen and (max-width: 500px) {
+  .home__title {
+    font-size: 36px;
+  }
+}

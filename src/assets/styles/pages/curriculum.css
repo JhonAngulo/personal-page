@@ -109,3 +109,16 @@
     gap: 20px;
   }
 }
+
+@media (max-width: 400px) {
+
+  .tecno {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .curriculum__info { 
+    padding: 7%;
+  }
+}
