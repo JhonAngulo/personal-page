@@ -13,7 +13,7 @@ export const portafolio = [
     titulo: 'Pet Shop',
     imagen: '/images/proyects/pet_shop.png',
     detalles:
-      'Proyecto realizado con React, utilizando Css puro, con el fin de tener mi propio sitio y darme a conocer, además de demostrar un poco mis conocimientos.',
+      'Proyecto de tienda en línea echo en vanilla JavaScript, integrando botón de pagos de PayPal.',
     url: 'https://jhonangulo.github.io/Pet_Shop/',
     repositorio: 'https://github.com/JhonAngulo/Pet_Shop/'
   },
@@ -22,7 +22,7 @@ export const portafolio = [
     titulo: 'Testimonials Slider',
     imagen: '/images/proyects/testimonials_slider.png',
     detalles:
-      'Proyecto realizado con React, utilizando Css puro, con el fin de tener mi propio sitio y darme a conocer, además de demostrar un poco mis conocimientos.',
+      'Reto realizado como practica personal sacado de frontendmentor, echo en vanilla JavaScript.',
     url: 'https://testimonials-slider.jhonangulo.now.sh/',
     repositorio: 'https://github.com/JhonAngulo/Testimonials-Slider'
   },
