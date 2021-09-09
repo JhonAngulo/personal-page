@@ -1,5 +1,14 @@
 export const portafolio = [
   {
+    id: 0,
+    titulo: 'Pokedex',
+    imagen: '/images/proyects/pokedex.png',
+    detalles:
+      'PWA realizada en Next.js combinando con redux, redux-saga y estilos en SASS.',
+    url: 'https://pokedex-jhonangulo.vercel.app/',
+    repositorio: 'https://github.com/JhonAngulo/Pokedex'
+  },
+  {
     id: 1,
     titulo: 'Pagina personal',
     imagen: '/images/proyects/personal_page.png',
