@@ -1,9 +1,17 @@
 export const experiencia = [
   {
+    id: 5,
+    empresa: 'JIKKOSOFT',
+    duracion: '2021 - actualidad',
+    cargo: 'Técnico de laboratorio',
+    funciones:
+      'Desarrollo de plataforma de silin 2.0, realizada en React con Typescript',
+  },
+  {
     id: 4,
     empresa: 'MCA SYSTEMS SAS',
-    duracion: '2016 - actualidad',
-    cargo: 'Técnico de laboratorio',
+    duracion: '2016 - 2021',
+    cargo: 'Software Developer Mid',
     funciones:
       'Desarrollo de plataforma de la empresa relacionada con ahorro energético, en la cual participe en varias ramas. desde la obtención de los datos en el hardware usando lenguaje Luup UPnP, pasando por el backend en Node y la interfaz gráfica en React.',
   },

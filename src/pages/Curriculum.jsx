@@ -10,6 +10,8 @@ import logoCss from 'assets/images/logo_css3.svg'
 import logoJavascript from 'assets/images/logo_javascript.svg'
 import logoReact from 'assets/images/logo_react.svg'
 import logoNode from 'assets/images/logo_node.svg'
+import logo_typescript from 'assets/images/logo_typescript.svg'
+import logo_material_ui from 'assets/images/logo_material_ui.svg'
 
 import 'assets/styles/pages/curriculum.css'
 
@@ -61,6 +63,14 @@ const Home = () => {
           <div className='tecno__item'>
             <img className='tecno__logo' src={logoNode} alt='logo node js' />
             <p className='tecno__name'>Node</p>
+          </div>
+          <div className='tecno__item'>
+            <img className='tecno__logo' src={logo_typescript} alt='logo node js' />
+            <p className='tecno__name'>Typescript</p>
+          </div>
+          <div className='tecno__item'>
+            <img className='tecno__logo' src={logo_material_ui} alt='logo node js' />
+            <p className='tecno__name'>Material UI</p>
           </div>
         </div>
       </div>
