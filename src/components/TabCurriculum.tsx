@@ -1,9 +1,13 @@
 import React from 'react'
 
-import { experiencia, formacion, formacionVirtual } from 'data/curriculum'
+import curriculumData from '../data/curriculum.json'
+import type { CurriculumData } from '../types/curriculum'
 
-const TabCurriculum = () => {
-  const activeTab = (event) => {
+const TabCurriculum: React.FC = () => {
+  const { experiencia, formacion, formacionVirtual } = curriculumData as CurriculumData
+
+  const activeTab = (event: React.MouseEvent<HTMLSpanElement>) => {
+    const target = event.target as HTMLSpanElement
     let tabItems = document.getElementsByClassName('curriculum__tab-item')
     let tabOption = document.getElementsByClassName('curriculum__tab-option')
 
@@ -15,8 +19,8 @@ const TabCurriculum = () => {
       const element = tabOption[i]
       element.classList.remove('active')
     }
-    event.target.classList.add('active')
-    tabOption[event.target.id].classList.add('active')
+    target.classList.add('active')
+    tabOption[parseInt(target.id)].classList.add('active')
   }
   return (
     <>

@@ -1,15 +1,13 @@
-import React from 'react'
+import '../assets/styles/pages/portafolio.css'
 
-import 'assets/styles/pages/portafolio.css'
-
-import { portafolio } from 'data/proyects'
+import proyectsData from '../data/proyects.json'
 
 const Home = () => {
   return (
     <div className='proyects-container'>
 
       {
-        portafolio.map((item) => (
+        proyectsData.portafolio.map((item) => (
           <div className='card_2 proyect-item' key={item.id}>
           <h3 className='proyect__title'>{item.titulo}</h3>
           <img

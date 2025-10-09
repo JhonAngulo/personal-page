@@ -1,7 +1,6 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 
-import 'assets/styles/components/footer.css'
+import '../assets/styles/components/footer.css'
 
 const Footer = () => {
   let fecha = new Date()

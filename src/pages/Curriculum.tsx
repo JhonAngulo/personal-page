@@ -1,19 +1,18 @@
-import React from 'react'
-import TabCurriculum from 'components/TabCurriculum'
+import TabCurriculum from '../components/TabCurriculum'
 
-import imagen from 'assets/images/imagen.jpeg'
+import imagen from '../assets/images/imagen.jpeg'
 
-import logoGit from 'assets/images/logo_git.svg'
-import logoGithub from 'assets/images/logo_github.svg'
-import logoHtml from 'assets/images/logo_html.svg'
-import logoCss from 'assets/images/logo_css3.svg'
-import logoJavascript from 'assets/images/logo_javascript.svg'
-import logoReact from 'assets/images/logo_react.svg'
-import logoNode from 'assets/images/logo_node.svg'
-import logo_typescript from 'assets/images/logo_typescript.svg'
-import logo_material_ui from 'assets/images/logo_material_ui.svg'
+import logoGit from '../assets/images/logo_git.svg'
+import logoGithub from '../assets/images/logo_github.svg'
+import logoHtml from '../assets/images/logo_html.svg'
+import logoCss from '../assets/images/logo_css3.svg'
+import logoJavascript from '../assets/images/logo_javascript.svg'
+import logoReact from '../assets/images/logo_react.svg'
+import logoNode from '../assets/images/logo_node.svg'
+import logo_typescript from '../assets/images/logo_typescript.svg'
+import logo_material_ui from '../assets/images/logo_material_ui.svg'
 
-import 'assets/styles/pages/curriculum.css'
+import '../assets/styles/pages/curriculum.css'
 
 const Home = () => {
   return (

@@ -1,6 +1,4 @@
-import React from 'react'
-
-import 'assets/styles/pages/home.css'
+import '../assets/styles/pages/home.css'
 
 const Home = () => {
   return (

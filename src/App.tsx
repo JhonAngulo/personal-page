@@ -1,17 +1,16 @@
-import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import Layout from './pages/Layout'
+import Home from './pages/Home'
+import Conoceme from './pages/Conoceme'
+import Curriculum from './pages/Curriculum'
+import Portafolio from './pages/Portafolio'
 
 import 'normalize.css'
-import 'assets/styles/global.css'
-import 'assets/styles/animation.css'
-
-import Layout from 'pages/Layout'
-import Home from 'pages/Home.jsx'
-import Conoceme from 'pages/Conoceme.jsx'
-import Curriculum from 'pages/Curriculum.jsx'
-import Portafolio from 'pages/Portafolio.jsx'
+import './assets/styles/global.css'
+import './assets/styles/animation.css'
 
 function App() {
+
   return (
     <BrowserRouter>
       <Layout>

@@ -1,6 +1,4 @@
-import React from 'react'
-
-const Home = () => {
+const Conoceme = () => {
   return (
     <div className='card'>
       <h1>Hola</h1>
@@ -30,4 +28,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Conoceme

@@ -1,8 +1,9 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-import 'assets/styles/components/header.css'
-const Home = () => {
+import '../assets/styles/components/header.css'
+
+const Header = () => {
   const [state, setState] = useState(false)
 
   const handleMenu = () => {
@@ -58,4 +59,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Header
